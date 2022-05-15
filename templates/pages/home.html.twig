@@ -1,0 +1,11 @@
+{%extends 'base.html.twig'%}
+
+{% block title 'Hello Tunisia!'%}
+
+{%block body%}
+         <img src="{{ asset('/images/tunisia-flag.png') }}" alt="Tunisia Flag" class="h-40 w-80 rounded shadow-md mt-12">
+         <h1 class="mt-5 text-5xl font-semibold text-indigo-600">Hello from Tunisia</h1>
+         <p class="text-lg text-gray-800">it's currently {{'now'|date('h:i A')}}</p>
+
+         
+{%endblock%}
